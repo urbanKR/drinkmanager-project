@@ -1,0 +1,45 @@
+# Common Ignores (Apply to both frontend and backend)
+HELP.md
+target/
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+.build/
+.history/
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+.DS_Store
+Thumbs.db
+
+# Backend Ignores
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Frontend Ignores
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/node_modules
+npm-debug.log
+yarn-error.log
+/settings/
+/.vscode/settings.json
+/.vscode/tasks.json
+/.vscode/launch.json
+/.vscode/extensions.json
+
+# Other Component-Specific Ignores (Add here if needed)
