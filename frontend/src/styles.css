@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card .card-img-top {
+  max-width: 300px;
+  max-height: 300px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 20px;
+  object-fit: cover;
+  padding: 0px;
+  margin: 0px;
+}
+.container .row .col .card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  transition: all 0.28s;
+}
+.card .card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.card-body .btn-primary {
+  border-radius: 500px;
+  width: 120px;
+}
+.container .row .col .card:hover {
+  transform: scale(1.06);
+}
+.card .card-title {
+  margin-bottom: 0;
+}
+.card .card-title::after {
+  content: "";
+  width: inherit;
+  background: black;
+  height: 1.5px;
+  display: block;
+  margin-top: 3px;
+}
+.card .card-title span {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  background: black;
+  border-radius: 17px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  line-height: 1.5;
+  width: 41px;
+  padding: 2px;
+}
+.card .card-body h6 {
+  font-weight: 400;
+  color: rgb(70, 68, 68);
+}
+.beer-rating {
+  font-size: 38px;
+}
+.bi.bi-star,
+.bi.bi-star-fill,
+.bi.bi-star-half {
+  color: gold;
+  margin-right: 5px;
+}
+.main-btn-container {
+  border: 3px solid black;
+  border-radius: 30px;
+  transform: scale(0.8);
+}
+button.main-btns.edit-btn {
+  padding-right: 10px;
+  border-right: 2.5px solid black;
+  border-radius: 0px;
+}

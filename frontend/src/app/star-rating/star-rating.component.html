@@ -1,0 +1,9 @@
+<div class="beer-rating">
+  <i
+    class="bi"
+    *ngFor="let star of stars"
+    [class.bi-star-fill]="star <= beerRating"
+  ></i>
+  <i class="bi" [class.bi-star-half]="hasHalfStar"></i>
+  <i class="bi bi-star" *ngFor="let star of emptyStars"></i>
+</div>
